@@ -1,0 +1,16 @@
+{
+  "name": "express-typescript-tutorial",
+  "version": "1.0.0",
+  "description": "quick start of express project using typescript",
+  "main": "build/index.js",
+  "author": "shinkai",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "tsc && node ./build/index.js"
+  }
+}
